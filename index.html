@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/dadd5c7e02.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="workspace/Whisky/css/style.css" type="text/css">
 </head>
 
 <body>
@@ -44,15 +46,16 @@
         <!--</div>-->
 
     </nav>
-        <article class="container mt-3">
+        <div class="container alert-container">
             <div class="row d-none d-sm-block">
              <div class="col-12">
               <div class="alert alert-warning">
                <strong>Sale now on!</strong> We have a sale on. Get a 12 month subscription for the price of 6! <a href="">see here for details</a>
               </div>
              </div>
-            </div>
-
+        </div>
+        </div>
+        <div class="container callout-container">
             <!-- Callout -->
             <div class="row">
 
@@ -71,9 +74,10 @@
 
             </div>
             <!-- /.callout -->
-            <hr>
+            </div>
 
             <!-- Quotes -->
+            <div class="container quotes-container">
                 <section class="quotes">
                     <div class="row">
                         <div class="col-12">
@@ -113,25 +117,26 @@
                 </div>
                 </section>
         <!-- /.quotes -->
-        <hr>
+        </div>
 
         <!-- Features -->
-        <section class="features">
-            <div class="row">
-                <div class="col-12 my-5">
-                    <h2 class="text-uppercase">Features:</h2>
-                </div>
-            </div>    
-
-            <div class="row">
-
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="feature">
-                        <h3> <i class="fas fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge badge-success">NEW!</span></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+        <div class="features-container">
+            <section class="features">
+                <div class="row">
+                    <div class="col-12 my-5">
+                        <h2 class="text-uppercase">Features:</h2>
                     </div>
-                </div>
+                </div>    
+
+                <div class="row">
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3> <i class="fas fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge badge-success">NEW!</span></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                        </div>
+                    </div>
 
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
@@ -153,55 +158,47 @@
 
         </section>
         <!-- /.features -->
+        </div>
 
         <!-- Monthly Favourites -->
-        <section class="monthly favourites">
-            <h2>Monthly Favourites:</h2>
-           <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Name</th>
-                        <th scope="col">Origin</th>
-                    </tr>
-                </thead>
+        <div class="monthly-favourites">
+                <section class="monthly favourites">
+                    <h2>Monthly Favourites:</h2>
+                <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Origin</th>
+                            </tr>
+                        </thead>
 
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Whisky1</td>
-                        <td>Origin1</td>
-                    </tr>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Whisky1</td>
+                                <td>Origin1</td>
+                            </tr>
 
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Whisky2</td>
-                        <td>Origin2</td>
-                    </tr>    
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Whisky2</td>
+                                <td>Origin2</td>
+                            </tr>    
 
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Whisky3</td>
-                        <td>Origin3</td>
-                    </tr>  
-
-                    <tr>
-                        <th scope="row">4</th>
-                        <td>Whisky4</td>
-                        <td>Origin4</td>
-                    </tr>  
-
-                    <tr>
-                        <th scope="row">5</th>
-                        <td>Whisky5</td>
-                        <td>Origin5</td>
-                    </tr>  
-                </tbody>
-            </table>
-            
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Whisky3</td>
+                                <td>Origin3</td>
+                            </tr>  
+ 
+                        </tbody>
+                    </table>
+                    
         </section>
         <!-- /.monthly favourites -->
-    </article>
+        </div>
+    
 
             <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
                 <div class="modal-dialog" role="document">
