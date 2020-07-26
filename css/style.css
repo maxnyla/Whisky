@@ -1,8 +1,15 @@
 body {
         font-family: 'Roboto', sans-serif;
-    
-
      }
+
+.container-wrapper {
+
+}
+
+.container-wrapper--pink{
+        background-color:#ef54f5;
+        color: white;
+}
 
 .alert-container .col-12 {
         padding-left: 0;
@@ -47,6 +54,21 @@ body {
 
 .features-container {}
 
+/*Page headers*/
+
+.page-header {
+        margin-bottom: 0;
+        border-bottom: 0;
+        text-align: center;
+}
+
+.page-header h2 {
+        margin-top: 0;
+}
+
+.quotes .page-header {
+        margin-bottom: 25px;
+}
 
 /*Block dividers*/
 
@@ -54,15 +76,28 @@ body {
         width: 75px;
         height: 5px;
         border: 0;
+        background-color: #444;
     }
 
 .block-divider--blue {
         background-color: #00beff;
 }
 
+.block-divider--white{
+        background-color: white;
+}
+
 .block-divider--short {
         width: 35px;
 }
+
+/*Content containers*/
+
+.content-container {
+        padding-top: 75px;
+        padding-bottom: 75px;
+}
+
 
 /*Navbar*/
 
@@ -118,6 +153,12 @@ body {
         color: #d0d0d0;
 }
 
+.mark, mark {
+       padding: .2em;
+       background-color: #f7c8f6ba;
+       color: white;
+}
+
 /*Buttons*/
 
 .btn--cta {
@@ -139,4 +180,25 @@ body {
         color: white;
         background-color:#8c0791;
         border-color: #8c0791;
+}
+
+.feature {
+        text-align: center;
+        margin-bottom: 40px;
+}
+
+.feature i {
+        margin-bottom: 20px;
+        font-size: 45px;
+        line-height: 45px;
+}
+
+.feature .btn {
+        background-color: white;
+        border-color: white;
+        border-radius: 15px;
+        min-width: 100px;
+        font-weight: bold;
+        margin-top: 10px;
+        color: #ef54f5;
 }
